@@ -1,0 +1,18 @@
+[project]
+name = "fastapi-pro-starter-uv"
+version = "0.1.0"
+description = "Professional, scalable FastAPI boilerplate"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115.0,<1.0.0",
+  "uvicorn[standard]>=0.30.0,<1.0.0",
+  "pydantic-settings>=2.4.0,<3.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = false
